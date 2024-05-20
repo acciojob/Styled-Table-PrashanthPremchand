@@ -1,1 +1,18 @@
 /* your code */
+table, th, td{
+	border-collapse: collapse;
+	text-align: left;
+	padding: 5px 5px;
+}
+table{
+	border: 1px solid black;
+	border-radius: 20%;
+	box-shadow: 0 0 5px #888;
+}
+th{
+	background-color: blue;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: grey;
+}
